@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">WidgetTest1</string>
+    <string name="btn1">인공지능소프트웨어학과</string>
+    <string name="gender">성병 선택</string>
+    <string name="female">여성</string>
+    <string name="male">남성</string>
+    <string name="textInput">여기에 이름 입력</string>
+    <string name="editHint">여기에 이름 입력</string>
+    <string name="btnConfirm">확인</string>
+
+</resources>
