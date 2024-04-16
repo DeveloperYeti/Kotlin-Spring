@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/marginMedium"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/textSelect"
+        android:textSize="@dimen/textSizeLarge"/>
+    <Switch
+        android:id="@+id/checkStart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/checkStart"
+        android:textSize="@dimen/textSizeMedium"/>
+
+
+    <LinearLayout
+        android:id="@+id/linearSub"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/textfavorite"
+            android:textSize="@dimen/textSizeLarge"/>
+    <RadioGroup
+        android:id="@+id/rg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/marginMedium"
+        >
+        <RadioButton
+            android:id="@+id/radioPuppy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/radioPuppy"
+            android:textSize="@dimen/marginMedium"
+        />
+        <RadioButton
+            android:id="@+id/radioKitty"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/radioKitty"
+            android:textSize="@dimen/marginMedium"
+            />
+        <RadioButton
+            android:id="@+id/radioBunny"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/radioBunny"
+            android:textSize="@dimen/marginMedium"
+        />
+    </RadioGroup>
+    <Button
+        android:id="@+id/btnDone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btnDone"
+        android:layout_marginBottom="@dimen/marginMedium"
+        />
+    <ImageView
+        android:id="@+id/imgV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/puppy"
+        android:scaleType="fitXY" />
+    <Button
+        android:id= "@+id/btnFinish"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="@string/btnFinish"/>
+    <Button
+        android:id= "@+id/btnInit"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="@string/btnInit"/>
+    </LinearLayout>
+<!--안보이게 하려면 리니어 안쪽에다가 버튼을 놓고 보이게 하려면 밖에 넣어야함-->
+
+</LinearLayout>
